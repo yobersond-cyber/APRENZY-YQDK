@@ -1,0 +1,1213 @@
+/* =========================================================
+   IDENTIDAD VISUAL POR ROL
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   BASE DEL ROLE LAYOUT
+   --------------------------------------------------------- */
+
+.role-layout {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* ---------------------------------------------------------
+   ADMINISTRADOR
+   Identidad: gestión institucional
+   --------------------------------------------------------- */
+
+.role-admin {
+  --role-primary: #6366f1;
+  --role-secondary: #818cf8;
+  --role-accent: #a5b4fc;
+  --role-glow: rgba(99, 102, 241, 0.18);
+}
+
+.role-admin .role-layout-sidebar {
+  background:
+    linear-gradient(
+      180deg,
+      #11152b 0%,
+      #0b1020 55%,
+      #080c18 100%
+    ) !important;
+
+  border-right:
+    1px solid
+    rgba(129, 140, 248, 0.18) !important;
+}
+
+.role-admin .role-layout-logo {
+  background:
+    linear-gradient(
+      135deg,
+      #4f46e5,
+      #6366f1,
+      #8b5cf6
+    ) !important;
+
+  color: #ffffff !important;
+
+  box-shadow:
+    0 0 24px
+    rgba(99, 102, 241, 0.28) !important;
+}
+
+.role-admin .role-layout-brand-info strong {
+  color: #ffffff !important;
+}
+
+.role-admin .role-layout-brand-info span {
+  color: #a5b4fc !important;
+}
+
+.role-admin .role-layout-role-card {
+  background:
+    rgba(99, 102, 241, 0.09) !important;
+
+  border:
+    1px solid
+    rgba(129, 140, 248, 0.16) !important;
+}
+
+.role-admin .role-layout-role-icon {
+  background:
+    rgba(99, 102, 241, 0.18) !important;
+
+  color:
+    #a5b4fc !important;
+}
+
+.role-admin .role-layout-nav-title {
+  color:
+    #737ba3 !important;
+}
+
+.role-admin .role-layout-nav-button {
+  color:
+    #aab1cc !important;
+}
+
+.role-admin .role-layout-nav-button:hover {
+  background:
+    rgba(99, 102, 241, 0.09) !important;
+
+  color:
+    #ffffff !important;
+}
+
+.role-admin .role-layout-nav-active {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(99, 102, 241, 0.22),
+      rgba(129, 140, 248, 0.08)
+    ) !important;
+
+  color:
+    #ffffff !important;
+
+  border-left:
+    3px solid
+    #818cf8 !important;
+
+  box-shadow:
+    inset 0 0 24px
+    rgba(99, 102, 241, 0.05) !important;
+}
+
+.role-admin .role-layout-nav-icon,
+.role-admin .role-layout-nav-arrow {
+  color:
+    #818cf8 !important;
+}
+
+.role-admin .role-layout-main {
+  background:
+    linear-gradient(
+      145deg,
+      #090d18 0%,
+      #0b1020 50%,
+      #080c17 100%
+    ) !important;
+}
+
+.role-admin .role-layout-topbar {
+  background:
+    rgba(9, 13, 24, 0.88) !important;
+
+  border-bottom:
+    1px solid
+    rgba(129, 140, 248, 0.12) !important;
+}
+
+.role-admin .role-layout-section-title {
+  color:
+    #ffffff !important;
+}
+
+.role-admin .role-layout-section-subtitle {
+  color:
+    #8d96b5 !important;
+}
+
+.role-admin .role-layout-avatar {
+  background:
+    rgba(99, 102, 241, 0.14) !important;
+
+  border:
+    1px solid
+    rgba(129, 140, 248, 0.22) !important;
+
+  color:
+    #a5b4fc !important;
+}
+
+.role-admin .role-home-header {
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(99, 102, 241, 0.20),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #121936,
+      #0b1020
+    ) !important;
+
+  border:
+    1px solid
+    rgba(129, 140, 248, 0.18) !important;
+}
+
+.role-admin .role-home-badge {
+  background:
+    rgba(99, 102, 241, 0.14) !important;
+
+  color:
+    #a5b4fc !important;
+
+  border:
+    1px solid
+    rgba(129, 140, 248, 0.20) !important;
+}
+
+.role-admin .role-home-card {
+  border:
+    1px solid
+    rgba(129, 140, 248, 0.15) !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(19, 25, 50, 0.96),
+      rgba(10, 15, 30, 0.96)
+    ) !important;
+}
+
+.role-admin .role-home-card > svg {
+  color:
+    #818cf8 !important;
+}
+
+/* ---------------------------------------------------------
+   DOCENTE
+   Identidad: aula / enseñanza
+   --------------------------------------------------------- */
+
+.role-docente {
+  --role-primary: #0891b2;
+  --role-secondary: #06b6d4;
+  --role-accent: #67e8f9;
+  --role-glow: rgba(6, 182, 212, 0.18);
+}
+
+.role-docente .role-layout-sidebar {
+  background:
+    linear-gradient(
+      180deg,
+      #062b35 0%,
+      #06232c 55%,
+      #041a22 100%
+    ) !important;
+
+  border-right:
+    1px solid
+    rgba(34, 211, 238, 0.18) !important;
+}
+
+.role-docente .role-layout-logo {
+  background:
+    linear-gradient(
+      135deg,
+      #0891b2,
+      #06b6d4,
+      #22d3ee
+    ) !important;
+
+  color:
+    #03242b !important;
+
+  box-shadow:
+    0 0 24px
+    rgba(6, 182, 212, 0.25) !important;
+}
+
+.role-docente .role-layout-brand-info strong {
+  color:
+    #ecfeff !important;
+}
+
+.role-docente .role-layout-brand-info span {
+  color:
+    #67e8f9 !important;
+}
+
+.role-docente .role-layout-role-card {
+  background:
+    rgba(6, 182, 212, 0.09) !important;
+
+  border:
+    1px solid
+    rgba(34, 211, 238, 0.16) !important;
+}
+
+.role-docente .role-layout-role-icon {
+  background:
+    rgba(6, 182, 212, 0.16) !important;
+
+  color:
+    #67e8f9 !important;
+}
+
+.role-docente .role-layout-nav-title {
+  color:
+    #5c8d96 !important;
+}
+
+.role-docente .role-layout-nav-button {
+  color:
+    #a2c5ca !important;
+}
+
+.role-docente .role-layout-nav-button:hover {
+  background:
+    rgba(6, 182, 212, 0.09) !important;
+
+  color:
+    #ecfeff !important;
+}
+
+.role-docente .role-layout-nav-active {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(6, 182, 212, 0.22),
+      rgba(34, 211, 238, 0.07)
+    ) !important;
+
+  color:
+    #ecfeff !important;
+
+  border-left:
+    3px solid
+    #22d3ee !important;
+
+  box-shadow:
+    inset 0 0 24px
+    rgba(6, 182, 212, 0.05) !important;
+}
+
+.role-docente .role-layout-nav-icon,
+.role-docente .role-layout-nav-arrow {
+  color:
+    #22d3ee !important;
+}
+
+.role-docente .role-layout-main {
+  background:
+    linear-gradient(
+      145deg,
+      #061b21 0%,
+      #07242b 50%,
+      #04161c 100%
+    ) !important;
+}
+
+.role-docente .role-layout-topbar {
+  background:
+    rgba(5, 27, 33, 0.90) !important;
+
+  border-bottom:
+    1px solid
+    rgba(34, 211, 238, 0.12) !important;
+}
+
+.role-docente .role-layout-section-title {
+  color:
+    #ecfeff !important;
+}
+
+.role-docente .role-layout-section-subtitle {
+  color:
+    #7faeb6 !important;
+}
+
+.role-docente .role-layout-avatar {
+  background:
+    rgba(6, 182, 212, 0.12) !important;
+
+  border:
+    1px solid
+    rgba(34, 211, 238, 0.22) !important;
+
+  color:
+    #67e8f9 !important;
+}
+
+.role-docente .role-home-header {
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(6, 182, 212, 0.20),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #08343d,
+      #06242c
+    ) !important;
+
+  border:
+    1px solid
+    rgba(34, 211, 238, 0.18) !important;
+}
+
+.role-docente .role-home-badge {
+  background:
+    rgba(6, 182, 212, 0.13) !important;
+
+  color:
+    #67e8f9 !important;
+
+  border:
+    1px solid
+    rgba(34, 211, 238, 0.20) !important;
+}
+
+.role-docente .role-home-card {
+  border:
+    1px solid
+    rgba(34, 211, 238, 0.15) !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(8, 52, 61, 0.96),
+      rgba(5, 30, 37, 0.96)
+    ) !important;
+}
+
+.role-docente .role-home-card > svg {
+  color:
+    #22d3ee !important;
+}
+
+/* ---------------------------------------------------------
+   ESTUDIANTE
+   Identidad: aprendizaje personal
+   --------------------------------------------------------- */
+
+.role-estudiante {
+  --role-primary: #059669;
+  --role-secondary: #10b981;
+  --role-accent: #6ee7b7;
+  --role-glow: rgba(16, 185, 129, 0.18);
+}
+
+.role-estudiante .role-layout-sidebar {
+  background:
+    linear-gradient(
+      180deg,
+      #062d24 0%,
+      #06241e 55%,
+      #041a16 100%
+    ) !important;
+
+  border-right:
+    1px solid
+    rgba(52, 211, 153, 0.18) !important;
+}
+
+.role-estudiante .role-layout-logo {
+  background:
+    linear-gradient(
+      135deg,
+      #059669,
+      #10b981,
+      #34d399
+    ) !important;
+
+  color:
+    #032219 !important;
+
+  box-shadow:
+    0 0 24px
+    rgba(16, 185, 129, 0.25) !important;
+}
+
+.role-estudiante .role-layout-brand-info strong {
+  color:
+    #ecfdf5 !important;
+}
+
+.role-estudiante .role-layout-brand-info span {
+  color:
+    #6ee7b7 !important;
+}
+
+.role-estudiante .role-layout-role-card {
+  background:
+    rgba(16, 185, 129, 0.09) !important;
+
+  border:
+    1px solid
+    rgba(52, 211, 153, 0.16) !important;
+}
+
+.role-estudiante .role-layout-role-icon {
+  background:
+    rgba(16, 185, 129, 0.16) !important;
+
+  color:
+    #6ee7b7 !important;
+}
+
+.role-estudiante .role-layout-nav-title {
+  color:
+    #59947f !important;
+}
+
+.role-estudiante .role-layout-nav-button {
+  color:
+    #a4c9bd !important;
+}
+
+.role-estudiante .role-layout-nav-button:hover {
+  background:
+    rgba(16, 185, 129, 0.09) !important;
+
+  color:
+    #ecfdf5 !important;
+}
+
+.role-estudiante .role-layout-nav-active {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(16, 185, 129, 0.22),
+      rgba(52, 211, 153, 0.07)
+    ) !important;
+
+  color:
+    #ecfdf5 !important;
+
+  border-left:
+    3px solid
+    #34d399 !important;
+
+  box-shadow:
+    inset 0 0 24px
+    rgba(16, 185, 129, 0.05) !important;
+}
+
+.role-estudiante .role-layout-nav-icon,
+.role-estudiante .role-layout-nav-arrow {
+  color:
+    #34d399 !important;
+}
+
+.role-estudiante .role-layout-main {
+  background:
+    linear-gradient(
+      145deg,
+      #061d18 0%,
+      #07261f 50%,
+      #041611 100%
+    ) !important;
+}
+
+.role-estudiante .role-layout-topbar {
+  background:
+    rgba(5, 28, 22, 0.90) !important;
+
+  border-bottom:
+    1px solid
+    rgba(52, 211, 153, 0.12) !important;
+}
+
+.role-estudiante .role-layout-section-title {
+  color:
+    #ecfdf5 !important;
+}
+
+.role-estudiante .role-layout-section-subtitle {
+  color:
+    #82ad9e !important;
+}
+
+.role-estudiante .role-layout-avatar {
+  background:
+    rgba(16, 185, 129, 0.12) !important;
+
+  border:
+    1px solid
+    rgba(52, 211, 153, 0.22) !important;
+
+  color:
+    #6ee7b7 !important;
+}
+
+.role-estudiante .role-home-header {
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(16, 185, 129, 0.20),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #08382b,
+      #06271f
+    ) !important;
+
+  border:
+    1px solid
+    rgba(52, 211, 153, 0.18) !important;
+}
+
+.role-estudiante .role-home-badge {
+  background:
+    rgba(16, 185, 129, 0.13) !important;
+
+  color:
+    #6ee7b7 !important;
+
+  border:
+    1px solid
+    rgba(52, 211, 153, 0.20) !important;
+}
+
+.role-estudiante .role-home-card {
+  border:
+    1px solid
+    rgba(52, 211, 153, 0.15) !important;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(8, 56, 43, 0.96),
+      rgba(5, 31, 24, 0.96)
+    ) !important;
+}
+
+.role-estudiante .role-home-card > svg {
+  color:
+    #34d399 !important;
+}
+
+/* ---------------------------------------------------------
+   CONTENIDO PRINCIPAL DE LOS TRES ROLES
+   --------------------------------------------------------- */
+
+.role-layout-content {
+  min-height: calc(100vh - 76px);
+  box-sizing: border-box;
+}
+
+/* Encabezados */
+
+.role-home-header h1 {
+  color: #ffffff !important;
+}
+
+.role-home-header p {
+  color: #a7b8b5 !important;
+}
+
+.role-home-grid {
+  margin-top: 24px;
+}
+
+.role-home-card {
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.role-home-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Efecto diferente para cada rol */
+
+.role-admin .role-home-card:hover {
+  border-color:
+    rgba(129, 140, 248, 0.35) !important;
+
+  box-shadow:
+    0 14px 35px
+    rgba(99, 102, 241, 0.10) !important;
+}
+
+.role-docente .role-home-card:hover {
+  border-color:
+    rgba(34, 211, 238, 0.35) !important;
+
+  box-shadow:
+    0 14px 35px
+    rgba(6, 182, 212, 0.10) !important;
+}
+
+.role-estudiante .role-home-card:hover {
+  border-color:
+    rgba(52, 211, 153, 0.35) !important;
+
+  box-shadow:
+    0 14px 35px
+    rgba(16, 185, 129, 0.10) !important;
+}
+
+/* ---------------------------------------------------------
+   BOTÓN CERRAR SESIÓN POR ROL
+   --------------------------------------------------------- */
+
+.role-admin .role-layout-logout:hover {
+  background:
+    rgba(99, 102, 241, 0.10) !important;
+
+  color:
+    #c7d2fe !important;
+}
+
+.role-docente .role-layout-logout:hover {
+  background:
+    rgba(6, 182, 212, 0.10) !important;
+
+  color:
+    #a5f3fc !important;
+}
+
+.role-estudiante .role-layout-logout:hover {
+  background:
+    rgba(16, 185, 129, 0.10) !important;
+
+  color:
+    #a7f3d0 !important;
+}
+
+/* ---------------------------------------------------------
+   RESPONSIVE
+   --------------------------------------------------------- */
+
+@media (max-width: 800px) {
+  .role-admin .role-layout-sidebar,
+  .role-docente .role-layout-sidebar,
+  .role-estudiante .role-layout-sidebar {
+    box-shadow:
+      12px 0 40px
+      rgba(0, 0, 0, 0.45) !important;
+  }
+}
+
+/* =========================================================
+   LOGIN APRenzy - DISEÑO PREMIUM
+   ========================================================= */
+
+body .login-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 30px;
+  box-sizing: border-box;
+
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(77, 124, 255, 0.22),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 80% 15%,
+      rgba(36, 231, 255, 0.18),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(98, 255, 120, 0.14),
+      transparent 35%
+    ),
+    #020504 !important;
+}
+
+/* Luces decorativas */
+
+body .login-container::before,
+body .login-container::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(2px);
+}
+
+body .login-container::before {
+  width: 420px;
+  height: 420px;
+  top: -180px;
+  left: -120px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(77, 124, 255, 0.20),
+      transparent 70%
+    );
+}
+
+body .login-container::after {
+  width: 500px;
+  height: 500px;
+  right: -180px;
+  bottom: -220px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(98, 255, 120, 0.14),
+      transparent 70%
+    );
+}
+
+/* Tarjeta */
+
+body .login-card {
+  position: relative;
+  z-index: 2;
+
+  width: min(440px, 100%);
+  box-sizing: border-box;
+
+  padding: 42px 40px 38px;
+
+  border:
+    1px solid
+    rgba(100, 220, 255, 0.20) !important;
+
+  border-radius: 28px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(14, 27, 29, 0.94),
+      rgba(5, 11, 12, 0.97)
+    ) !important;
+
+  box-shadow:
+    0 35px 90px rgba(0, 0, 0, 0.55),
+    0 0 60px rgba(36, 231, 255, 0.07),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+
+  backdrop-filter: blur(22px);
+
+  animation:
+    login-card-enter 0.65s ease-out;
+}
+
+/* Línea luminosa superior */
+
+body .login-card::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 15%;
+  right: 15%;
+
+  height: 2px;
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      #4d7cff,
+      #24e7ff,
+      #62ff78,
+      transparent
+    );
+
+  box-shadow:
+    0 0 18px
+    rgba(36, 231, 255, 0.45);
+}
+
+/* Logo */
+
+body .login-logo {
+  position: relative;
+
+  width: 240px;
+  height: 125px;
+
+  margin:
+    0 auto 15px;
+
+  background:
+    url("./assets/aprenzy-logo.png")
+    center / contain
+    no-repeat !important;
+
+  filter:
+    drop-shadow(
+      0 0 18px
+      rgba(36, 231, 255, 0.25)
+    );
+
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
+}
+
+body .login-logo:hover {
+  transform:
+    scale(1.04);
+
+  filter:
+    drop-shadow(
+      0 0 25px
+      rgba(36, 231, 255, 0.38)
+    );
+}
+
+/* Título */
+
+body .login-card h1 {
+  margin:
+    5px 0 8px;
+
+  text-align: center;
+
+  color:
+    #ffffff !important;
+
+  font-size:
+    28px;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    -0.04em;
+}
+
+/* Descripción */
+
+body .login-description {
+  max-width: 330px;
+
+  margin:
+    0 auto 28px;
+
+  text-align: center;
+
+  color:
+    #8da6a2 !important;
+
+  line-height:
+    1.6;
+}
+
+/* Labels */
+
+body .login-card label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color:
+    #dce9e6 !important;
+
+  font-size:
+    12px;
+
+  font-weight:
+    700;
+
+  letter-spacing:
+    0.02em;
+}
+
+/* Contenedores de input */
+
+body .login-card .input-container {
+  min-height: 52px;
+
+  box-sizing: border-box;
+
+  border:
+    1px solid
+    rgba(145, 170, 167, 0.20) !important;
+
+  border-radius:
+    13px !important;
+
+  background:
+    rgba(7, 18, 19, 0.90) !important;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+body .login-card .input-container:hover {
+  border-color:
+    rgba(36, 231, 255, 0.28) !important;
+}
+
+body .login-card .input-container:focus-within {
+  transform:
+    translateY(-1px);
+
+  border-color:
+    #24e7ff !important;
+
+  box-shadow:
+    0 0 0 3px
+    rgba(36, 231, 255, 0.08),
+    0 0 25px
+    rgba(36, 231, 255, 0.08) !important;
+}
+
+/* Iconos de inputs */
+
+body .login-card .input-container svg {
+  color:
+    #24e7ff !important;
+
+  filter:
+    drop-shadow(
+      0 0 5px
+      rgba(36, 231, 255, 0.35)
+    );
+}
+
+/* Inputs */
+
+body .login-card .input-container input {
+  height:
+    50px;
+
+  box-sizing:
+    border-box;
+
+  color:
+    #ffffff !important;
+
+  background:
+    transparent !important;
+}
+
+/* Placeholder */
+
+body .login-card input::placeholder {
+  color:
+    #66817d !important;
+}
+
+/* Botón */
+
+body .login-card button {
+  position: relative;
+
+  width: 100%;
+
+  min-height:
+    52px;
+
+  margin-top:
+    24px;
+
+  border:
+    0 !important;
+
+  border-radius:
+    13px !important;
+
+  background:
+    linear-gradient(
+      100deg,
+      #4d7cff 0%,
+      #24cfea 48%,
+      #62ff78 100%
+    ) !important;
+
+  color:
+    #03100a !important;
+
+  font-size:
+    14px;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    0.01em;
+
+  cursor:
+    pointer;
+
+  overflow:
+    hidden;
+
+  box-shadow:
+    0 10px 30px
+    rgba(36, 231, 255, 0.15) !important;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+
+body .login-card button::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: -120%;
+
+  width: 70%;
+  height: 100%;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.30),
+      transparent
+    );
+
+  transform:
+    skewX(-20deg);
+
+  transition:
+    left 0.5s ease;
+}
+
+body .login-card button:hover {
+  transform:
+    translateY(-2px);
+
+  filter:
+    brightness(1.08);
+
+  box-shadow:
+    0 15px 35px
+    rgba(36, 231, 255, 0.24) !important;
+}
+
+body .login-card button:hover::before {
+  left:
+    140%;
+}
+
+body .login-card button:active {
+  transform:
+    translateY(0);
+}
+
+/* Error */
+
+body .login-card .login-error {
+  margin-top:
+    15px;
+
+  padding:
+    11px 13px;
+
+  border:
+    1px solid
+    rgba(255, 107, 122, 0.20);
+
+  border-radius:
+    10px;
+
+  background:
+    rgba(255, 107, 122, 0.07);
+
+  color:
+    #ff9ca6 !important;
+
+  text-align:
+    center;
+
+  font-size:
+    13px;
+}
+
+/* Animación de entrada */
+
+@keyframes login-card-enter {
+  from {
+    opacity: 0;
+    transform:
+      translateY(20px)
+      scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform:
+      translateY(0)
+      scale(1);
+  }
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  body .login-container {
+    padding:
+      18px;
+  }
+
+  body .login-card {
+    padding:
+      34px 24px 28px;
+
+    border-radius:
+      22px;
+  }
+
+  body .login-logo {
+    width:
+      210px;
+
+    height:
+      110px;
+  }
+
+  body .login-card h1 {
+    font-size:
+      24px;
+  }
+}
